@@ -12,4 +12,11 @@ public class InvoiceDAO {
         //this satisfies single responsibility
         //.save()
     }
+
+    //adding another method to store to the file
+    //saveToFile method is violetting the Open/Closed principle
+    public void saveToFile(){
+        // fileinputstream
+
+    }
 }
